@@ -1,0 +1,22 @@
+#comprar{
+    animation-name: aumentar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    scale: 1;
+
+}
+
+@keyframes aumentar{
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale: 1.1;
+    }
+
+    100%{
+        scale: 1;
+    }
+}
+
